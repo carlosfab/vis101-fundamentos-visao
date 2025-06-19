@@ -1,0 +1,14 @@
+name: vis101
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - scipy
+  - pillow
+  - ipywidgets
+  - pip
+  - pip:
+      - opencv-python
